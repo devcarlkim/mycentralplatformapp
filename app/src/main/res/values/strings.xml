@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MyCentralPlatformApp</string>
+    <string name="splash_text">MyCentralPlatformApp</string>
 </resources>

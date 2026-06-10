@@ -3,8 +3,18 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <queries>
-        <!-- Replace with the package name of the app you are trying to open -->
+        <package android:name="com.example.diceroller" />
+        <package android:name="com.example.colormyviews" />
+        <package android:name="com.example.aboutme" />
+        <package android:name="com.example.titlefragments" />
+        <package android:name="com.example.helloworld" />
+        <package android:name="com.example.android.navigation" />
+        <package android:name="com.example.android.dessertpusher" />
+        <package android:name="com.example.android.guesstheword" />
         <package android:name="com.example.android.trackmysleepqualityrecyclerview" />
+        <package android:name="com.example.marsrealestate" />
+        <package android:name="com.example.devbytes" />
+        <package android:name="com.example.android.gdgfinder" />
     </queries>
     <application
         android:allowBackup="true"
@@ -16,15 +26,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyCentralPlatformApp"
         tools:targetApi="31">
+
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.MyCentralPlatformApp.Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
     </application>
 
 </manifest>

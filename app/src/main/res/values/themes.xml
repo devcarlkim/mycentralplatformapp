@@ -6,4 +6,10 @@
     </style>
 
     <style name="Theme.MyCentralPlatformApp" parent="Base.Theme.MyCentralPlatformApp" />
+
+    <style name="Theme.MyCentralPlatformApp.Splash" parent="Theme.MyCentralPlatformApp">
+        <item name="android:statusBarColor">@color/splash_red</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
 </resources>
