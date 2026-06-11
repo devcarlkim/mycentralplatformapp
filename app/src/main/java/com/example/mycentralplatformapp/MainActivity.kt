@@ -51,73 +51,73 @@ class MainActivity : AppCompatActivity() {
                 title = "Dice Roller",
                 subtitle = "A simple dice game app built to test the views and models.",
                 appPackageName = "com.example.diceroller",
-                color = "green"
+                color = "darkgray"
             ),
             ShowcaseItem(
                 title = "Color My Views",
                 subtitle = "A simple color's view app that teaches layouts and colors in android.",
                 appPackageName = "com.example.colormyviews",
-                color = "green"
+                color = "darkgray"
             ),
             ShowcaseItem(
                 title = "About Me",
                 subtitle = "A simple about me app that teaches about textview and constraints",
                 appPackageName = "com.example.aboutme",
-                color = "green"
+                color = "darkgray"
             ),
-            ShowcaseItem(
-                title = "Title Fragments",
-                subtitle = "A simple fragments app that teaches about the fragment activities in android.",
-                appPackageName = "com.example.android.titlefragments",
-                color = "red"
-            ),
+//            ShowcaseItem(
+//                title = "Title Fragments",
+//                subtitle = "A simple fragments app that teaches about the fragment activities in android.",
+//                appPackageName = "com.example.android.titlefragments",
+//                color = "red"
+//            ),
             ShowcaseItem(
                 title = "Hello World",
                 subtitle = "A simple hello world app that teaches the lifecycles and views in android",
-                appPackageName = "com.example.android.helloworld",
-                color = "red"
+                appPackageName = "com.example.helloworld",
+                color = "darkgray"
             ),
             ShowcaseItem(
                 title = "Trivia Game",
                 subtitle = "A simple Trivia game app that teaches about the navigation and persistence of data in android.",
                 appPackageName = "com.example.android.navigation",
-                color = "green"
+                color = "darkgray"
             ),
             ShowcaseItem(
                 title = "Dessert Pusher",
                 subtitle = "A simple game about making desserts that teaches about creating functions, activity life cycles and callback methods.",
                 appPackageName = "com.example.android.dessertpusher",
-                color = "red"
+                color = "darkgray"
             ),
             ShowcaseItem(
                 title = "Guess it",
                 subtitle = "A simple game that teaches about timers, buttons and EditTexts.",
                 appPackageName = "com.example.android.guesstheword",
-                color = "green"
+                color = "darkgray"
             ),
             ShowcaseItem(
                 title = "Sleep Tracker",
                 subtitle = "A simple sleep tracker app that tests the timer and recyclerview",
                 appPackageName = "com.example.android.trackmysleepqualityrecyclerview",
-                color = "green"
+                color = "darkgray"
             ),
             ShowcaseItem(
                 title = "Mars Real Estate",
                 subtitle = "A simple app that test Internet connection using retrofit.",
                 appPackageName = "com.example.android.marsrealestate",
-                color = "red"
+                color = "darkgray"
             ),
             ShowcaseItem(
                 title = "Dev Bytes",
                 subtitle = "A simple app that test local database using room.",
-                appPackageName = "com.example.android.devbytes",
-                color = "red"
+                appPackageName = "com.example.android.devbyteviewer",
+                color = "darkgray"
             ),
             ShowcaseItem(
                 title = "GDG Finder",
                 subtitle = "A simple GDG Finder that tests internet connectivity using retrofit.",
                 appPackageName = "com.example.android.gdgfinder",
-                color = "green"
+                color = "darkgray"
             )
         )
     }

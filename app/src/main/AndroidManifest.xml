@@ -12,8 +12,8 @@
         <package android:name="com.example.android.dessertpusher" />
         <package android:name="com.example.android.guesstheword" />
         <package android:name="com.example.android.trackmysleepqualityrecyclerview" />
-        <package android:name="com.example.marsrealestate" />
-        <package android:name="com.example.devbytes" />
+        <package android:name="com.example.android.marsrealestate" />
+        <package android:name="com.example.android.devbyteviewer" />
         <package android:name="com.example.android.gdgfinder" />
     </queries>
     <application
